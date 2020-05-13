@@ -12,7 +12,7 @@ class MP3Importer
   end
   
   def files(path)
-    file.gsub(".mp3", "")
+    # file.gsub(".mp3", "")
   end
 
   # Action Bronson - Larry Csonka - indie.mp3
