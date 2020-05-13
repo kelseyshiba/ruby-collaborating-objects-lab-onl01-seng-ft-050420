@@ -11,7 +11,7 @@ class MP3Importer
   end
   
   def files
-    Dir.glob("#{@path}/*.mp3").each {|file| file.split(/"\.\/spec\/fixtures\/mp3s\/|",|"/)}
+    Dir.glob("#{@path}/*.mp3").each {|file| file.gsub(//)}
   end
 
   # Action Bronson - Larry Csonka - indie.mp3
