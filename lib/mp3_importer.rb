@@ -13,6 +13,7 @@ class MP3Importer
   
   def files(path)
     path.split(" - ")
+    binding.pry
     # file.gsub(".mp3", "")
   end
 
