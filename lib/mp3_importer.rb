@@ -10,9 +10,8 @@ class MP3Importer
     Dir.glob("#{@path}/*.mp3").each {|file| Song.new_by_filename(file)}
   end
   
-  def files(path)
-    # path.split(" - ")
-    # # file.gsub(".mp3", "")
+  def files
+    Dir.glob("#{@path}/*.mp3").each {|file| file.split(" - ")}
   end
 
   # Action Bronson - Larry Csonka - indie.mp3
