@@ -8,6 +8,7 @@ class MP3Importer
   
   def import(path)
    Dir.glob('*.mp3').each {|f| f}
+   
   end
   
   def files(path)
