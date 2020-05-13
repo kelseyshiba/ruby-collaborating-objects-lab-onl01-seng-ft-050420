@@ -12,9 +12,8 @@ class MP3Importer
   end
   
   def files(path)
-    path.split(" - ")
-    binding.pry
-    # file.gsub(".mp3", "")
+    # path.split(" - ")
+    # # file.gsub(".mp3", "")
   end
 
   # Action Bronson - Larry Csonka - indie.mp3
