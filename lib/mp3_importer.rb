@@ -7,7 +7,7 @@ class MP3Importer
   end
   
   def import(path)
-   Dir.glob('*.mp3').each {|f| f}
+   Dir.glob('#{path}*.mp3').each {|f| f}
    
   end
   
