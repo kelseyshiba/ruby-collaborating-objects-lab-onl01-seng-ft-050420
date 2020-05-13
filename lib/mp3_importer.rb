@@ -12,7 +12,7 @@ class MP3Importer
   
   def files
     binding.pry
-    Dir.glob("#{@path}/*.mp3").each {|file| file.split(" - ")}
+    Dir.glob("#{@path}/*.mp3").each {|file| file.split("/")}
   end
 
   # Action Bronson - Larry Csonka - indie.mp3
