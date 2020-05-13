@@ -11,7 +11,7 @@ class MP3Importer
     Song.new_by_filename(newfile)
   end
   
-  def files(file)
+  def files(path)
     file.gsub(".mp3", "")
   end
 
