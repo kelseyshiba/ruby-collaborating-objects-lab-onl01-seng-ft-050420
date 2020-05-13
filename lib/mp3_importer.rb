@@ -5,7 +5,6 @@ class MP3Importer
   def initialize(path)
     @path = path
   end
-  binding.pry
   
   def import(file)
     newfile = self.new(file)
